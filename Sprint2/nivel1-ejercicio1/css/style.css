@@ -1,0 +1,90 @@
+/* Reglas comunes
+medidas para bootstrap:
+xs <575  &  sm 576-767px  &  md 768-991px  &  lg 992-1199px  &  xl >1200px
+--------------------------------------------------------------------------- */
+
+
+.menu {
+  background-color: white;
+  border: 1px grey solid;
+  border-radius: 4px;
+}
+
+nav ul{
+  list-style-type: none;
+}
+#carouselExampleCaptions {
+  background-color: rgba(232, 140, 106, 0.4);
+}
+
+.navbar{
+  background-color: white;
+}
+
+.login .btn-primary{
+  color: rgb(103, 103, 103);
+  border: 1px solid rgb(157, 218, 177);
+}
+
+.login .btn-primary:focus{
+  color: rgb(103, 103, 103);
+  border: 1px solid rgb(157, 218, 177);
+  background-color: rgba(232, 140, 106, 0.4);
+}
+
+.btn-primary{
+  color: rgb(103, 103, 103);
+  background-color: white;
+  border: 1px solid rgb(157, 218, 177);
+}
+
+.nav-link :active{
+  background-color: rgba(232, 140, 106, 0.4);
+}
+
+.nav-link:hover,:focus{
+  background-color: rgba(232, 140, 106, 0.4);
+}
+
+.btn-primary:hover,:focus{
+  background-color: rgba(232, 140, 106, 0.4);
+  border: 1px solid rgb(157, 218, 177);
+}
+
+/* VENTANA MODAL LOGIN */
+.modal-dialog {
+  max-width: 300px;
+  display: flex;
+}
+
+.modal-title{
+  color: rgb(103, 103, 103);
+}
+
+.modal-body p{
+  color: rgb(103, 103, 103);
+}
+
+.modal-body a{
+  font-size: 11px;
+  text-decoration: none;
+}
+
+.carousel {
+  background-color: rgb(248, 249, 250);
+}
+
+.carousel-item ,p,h5{
+  color: black;
+}
+
+.card-title{
+  /* color: rgba(232, 140, 106, 0.4); */
+  color: rgb(157, 218, 177);
+  font-size: 20px;
+}
+
+.card-text{
+  font-size: 12px;
+  color: rgb(103, 103, 103);
+}

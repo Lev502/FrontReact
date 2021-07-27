@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <title>Proyecto</title>
+      <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+      <meta http-equiv="x-ua-compatible" content="ie-edge">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <script src="js/bootstrap.bundle.min.js"></script>
+  </head>
+
+  <body>
+      <div class="container text-light">
+        <div class="row mt-0 ms-0 pt-2 pe-0 pb-2 ps-0">
+              <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <img src="img/fuego-que-delimita.png" class="navbar-brand order-2 order-md-1" alt="--">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse order-1 order-md-2" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-center">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Hello!</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">CV</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="login d-flex justify-content-end order-3 col-md-2 align-content-center ">
+                  <!-- <a href="#demo" class="btn btn-primary" data-toggle="collapse">Sign in</a> -->
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Login
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                          <div class="modal-content">
+                              <div class="modal-header">
+                                  <h5 class="modal-title d-flex align-content-center align-self-center justify-content-center" id="exampleModalLabel">Login</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                  <p> Email address <input type="email"> </p>
+                                  <p> Password <input type="password"> </p>
+                                  <a href="#demo">Register - or - Lost your password?</a>
+                              </div>
+                              <div class="modal-footer ">
+                                  <button type="button" class="btn btn-primary d-flex flex-fill justify-content-center">Log in</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              </nav>
+        </div>
+        <!-- cierra row1 -->
+
+      <!-- carousel -->
+      <div id="carouselExampleCaptions" class="carousel slide mt-4" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carousel_2.jpg" class="d-block w-100" alt="...">
+                    <br><br><br><br><br><br>
+                    <div class="carousel-caption d-none d-md-block w-75">
+                        <h5>Dibujos a tinta</h5>
+                        <p>A veces hechos con pincel, otros con rotulador.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel_3.jpg" class="d-block w-100" alt="...">
+                    <br><br><br><br><br><br>
+                    <div class="carousel-caption d-none d-md-block w-75">
+                        <h5>Trabajando distintas técnicas</h5>
+                        <p>Me gusta experimentar con distintos materiales y técnicas.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel_1.jpg" class="d-block w-100" alt="...">
+                    <br><br><br><br><br><br>
+                    <div class="carousel-caption d-none d-md-block w-75">
+                        <h5>Buscando estructuras</h5>
+                        <p>A través del arte busco formas de expresar y de crear nuevos mundos.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carousel_4.jpg" class="d-block w-100" alt="...">
+                    <br><br><br><br><br><br>
+                    <div class="carousel-caption d-none d-md-block w-75">
+                        <h5>Preparadas para decorar</h5>
+                        <p>Algunas de mis pequeñas obras presentadas y enmarcadas.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+      </div> <!-- cierra carousel / row2 -->
+
+
+      <div class="row mt-2 ms-0 me-0 p-0">
+        <!-- basic cards -->
+        <div class="col-12 col-md-6 col-lg-4 p-2">
+          <div class="card">
+            <img class="card-img-top" src="img/card1.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">L larga occitana</h4>
+              <p class="card-text">Some example text.</p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 p-2">
+          <div class="card">
+            <img class="card-img-top" src="img/card2.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Familia del mar entre tierras</h4>
+              <p class="card-text">Some example text.</p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 p-2">
+          <div class="card">
+            <img class="card-img-top" src="img/card3.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Mandala Homer's God</h4>
+              <p class="card-text">Some example text.</p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 p-2">
+          <div class="card">
+            <img class="card-img-top" src="img/card4.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">.BE. That's enough</h4>
+              <p class="card-text">Some example text.</p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 p-2">
+          <div class="card">
+            <img class="card-img-top" src="img/card5.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Estructura en verde</h4>
+              <p class="card-text">Some example text.</p>
+              <a href="#" class="btn btn-primary">See Profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4 p-2">
+          <div class="card">
+            <img class="card-img-top" src="img/card6.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Cosas de casa</h4>
+              <p class="card-text">Some example text.</p>
+              <a href="#" class="btn">See Profile</a>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- cierra carousel / row2 -->
+
+      <br><br><br>
+
+      <!-- Footer -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2021 Copyright:
+          <a class="text-white" href="#miweb">miweb.leila</a>
+      </div>
+
+    </div>
+  </body>
